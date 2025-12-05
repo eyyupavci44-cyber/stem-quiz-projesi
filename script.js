@@ -1,9 +1,4 @@
-/*******************************************************************************
- * STEM Quiz Projesi
- * Tüm hakları saklıdır.
- *
- * Bu kod, MIT Lisansı koşulları altında dağıtılmaktadır.
- ******************************************************************************/
+
 const quizzes = [
     {
         topic: "Temel Bilimler (Fizik & Kimya & Biyoloji)",
@@ -349,3 +344,4 @@ function resetQuiz() {
     startScreen.classList.remove('hidden');
     startScreen.classList.add('active');
 }
+
