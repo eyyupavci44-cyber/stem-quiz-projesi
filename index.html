@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEM Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-animation"></div>
+
+    <div class="container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <h1>STEM Quiz</h1>
+            <p>Bilim, Teknoloji, Mühendislik ve Matematik bilginizi sınayın!</p>
+            <button id="start-btn" class="btn primary">Quize Başla</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen hidden">
+            <div class="header">
+                <span id="level-indicator">Bölüm 1</span>
+                <span id="score-indicator">Puan: 0</span>
+            </div>
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+
+            <div class="question-container">
+                <h2 id="question-text">Soru metni buraya gelecek...</h2>
+                <div id="options-container" class="options-grid">
+                    <!-- Options will be generated here -->
+                </div>
+            </div>
+
+            <div id="feedback-area" class="feedback hidden">
+                <p id="feedback-text"></p>
+                <p id="explanation-text"></p>
+                <button id="next-btn" class="btn secondary">Sonraki Soru</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen hidden">
+            <h2>Quiz Tamamlandı!</h2>
+            <div class="score-card">
+                <p>Toplam Skorunuz</p>
+                <h1 id="final-score">85%</h1>
+            </div>
+
+            <div id="wrong-answers-container" class="wrong-answers">
+                <h3>Hatalı Cevaplar ve Çözümleri</h3>
+                <ul id="wrong-answers-list">
+                    <!-- Wrong answers will be listed here -->
+                </ul>
+            </div>
+
+            <button id="restart-btn" class="btn primary">Tekrar Dene</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
