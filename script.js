@@ -1,3 +1,12 @@
+
+/*******************************************************************************
+ * STEM Quiz Projesi
+ * Telif Hakkı (c) [Yıl], [Telif Hakkı Sahibi Adı]
+ * Tüm hakları saklıdır.
+ *
+ * Bu kod, MIT Lisansı koşulları altında dağıtılmaktadır.
+ * Ayrıntılar için lütfen LICENSE dosyasını inceleyiniz.
+ ******************************************************************************/
 const quizzes = [
     {
         topic: "Temel Bilimler (Fizik & Kimya)",
